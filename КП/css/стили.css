@@ -1,10 +1,3 @@
-h1 {
-    color: rgb(156, 176, 99);
-    font-size : 100px;
-    font-weight: 50;
-    font-family: Arial;
-  }
- 
 p {
     color: rgb(255, 255, 255);
     font-size : 50px;
@@ -12,28 +5,25 @@ p {
     padding-left: 200px;
     font-weight: 10;
     font-family: 'Roboto', sans-serif;
-  }
+}
     
-    .tekst_sverhu_kartinki_1 {
-    
-    position: absolute;
-    
+.tekst_sverhu_kartinki_1 {
     bottom: 30%;
-    
     color: rgb(156, 176, 99);
     font-size : 150px;
     padding-left: 100px;
-    padding-top: 200px;
+    padding-top: 70px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    white-space: nowrap
+}
     
-    }
-    
-    body {
-        margin: 0px; 
-        background-image: url("главный экран фон.png");
-        height: 100%;
-        width: 100%;
+body {
+    margin: 0px; 
+    background-image: url("главный экран фон.png");
+    height: 100%;
+    width: 100%;
 
 }
 #rectangle {
@@ -45,7 +35,7 @@ p {
     border-radius: 30px;
     background: rgb(12, 37, 19);
 }
-a{
+a {
     color: rgb(255, 255, 255);
     font-size : 50px;
     position: absolute;
