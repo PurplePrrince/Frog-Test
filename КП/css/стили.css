@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(156, 176, 99);
+    font-size : 100px;
+    font-weight: 50;
+    font-family: Arial;
+  }
+ 
+p {
+    color: rgb(255, 255, 255);
+    font-size : 50px;
+    position: relative;
+    padding-left: 200px;
+    font-weight: 10;
+    font-family: 'Roboto', sans-serif;
+  }
+    
+    .tekst_sverhu_kartinki_1 {
+    
+    position: absolute;
+    
+    bottom: 30%;
+    
+    color: rgb(156, 176, 99);
+    font-size : 150px;
+    padding-left: 100px;
+    padding-top: 200px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    body {
+        margin: 0px; 
+        background-image: url("главный экран фон.png");
+        height: 100%;
+        width: 100%;
+
+}
+#rectangle {
+    position: relative;
+    top: 550px;
+    left: 350px;
+    width: 550px;
+    height: 120px;
+    border-radius: 30px;
+    background: rgb(12, 37, 19);
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size : 50px;
+    position: absolute;
+    padding-left: 140px;
+    top: 25px;
+    font-weight: 10;
+    font-family: 'Roboto', sans-serif;
+}
+      
+   
+  
